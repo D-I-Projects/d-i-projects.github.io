@@ -14,7 +14,7 @@ We collect data to remember your preferences for dark and light mode, ensuring y
 
 **D&I Projects**
 
-**E-mail:** [projectsdi02@gmail.com](mailto:projectsdi02@gmail.com)
+**E-mail:** [di.projects.help@gmail.com](mailto:di.projects.help@gmail.com)
 
 We will not provide more information due to privacy reasons. For complaints or suggestions of any kind feel free to contact us via email.
 
