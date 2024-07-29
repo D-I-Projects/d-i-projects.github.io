@@ -230,6 +230,78 @@ pre code {
     gap: 10px;
 }
 
+.people-languages-box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.people-languages-box h1 {
+    font-size: 30px;
+}
+
+.people-languages-box h1:hover {
+    color: #707070;
+}
+
+.people-languages-box table {
+    width: 750px;
+    border-radius: 20px;
+    border-collapse: collapse;
+    background-color: var(--bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    color: var(--text-color);
+}
+
+.people-languages-box table th,
+.people-languages-box table td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.people-languages-box table th {
+    background-color: var(--secondary-color);
+    color: var(--header-color);
+    font-size: 22px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.people-languages-box table tr {
+    font-size: 20px;
+}
+
+.people-languages-box table tr:nth-child(even) {
+    background-color: var(--table-alt-row-color);
+}
+
+.people-languages-box table tr:hover {
+    background-color: var(--hover-bg-color);
+    transition: background-color 0.3s ease;
+}
+
+.people-languages-box table tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+}
+
+.people-languages-box table tr:first-child th:last-child {
+    border-top-right-radius: 20px;
+}
+
+.people-languages-box table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.people-languages-box table tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
 .topbar button {
     top: 16px;
     background: var(--secondary-color);
@@ -355,6 +427,12 @@ body.light-mode .light-mode-btn .fa-sun {
     display: block;
 }
 
+@media only screen and (max-width: 765px) {
+    .people-languages-box table {
+        width: 250px;
+    }
+}
+
 @media only screen and (max-width: 495px) {
     .cookie-banner {
         position: fixed;
@@ -373,5 +451,23 @@ body.light-mode .light-mode-btn .fa-sun {
 @media only screen and (max-width: 470px) {
     .footer-left {
         display:none;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .people-languages-box table {
+        width: 180px;
+    }
+    .people-languages-box table th {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .people-languages-box table {
+        width: 160px;
+    }
+    .people-languages-box table th {
+        font-size: 14px;
     }
 }
