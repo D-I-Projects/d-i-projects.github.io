@@ -328,6 +328,12 @@ pre code {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
+.profile_picture {
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+
 .page-content {
     display: flex;
     flex-direction: column;
