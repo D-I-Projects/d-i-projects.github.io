@@ -104,6 +104,11 @@ b {
     transition: color 0.3s ease;
 }
 
+.table-link {
+    color: var(--text-color);
+    text-decoration: solid;
+}
+
 .black:hover {
     color: var(--link-hover-color);
 }
@@ -151,8 +156,8 @@ body.light-mode .program_table tr:hover {
 }
 
 pre {
-    background-color: #282c34;
-    color: #abb2bf;
+    background-color: var(--header-color);
+    color: var(--bg-color);
     border-radius: 5px;
     padding: 10px;
     overflow-x: auto;
@@ -357,12 +362,76 @@ pre code {
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
 }
 
+.table_t table {
+    width: 750px;
+    border-radius: 20px;
+    border-collapse: collapse;
+    background-color: var(--bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    color: var(--text-color);
+}
+
+.table_t th,
+.table_t td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+.table_t table th {
+    background-color: var(--secondary-color);
+    color: var(--header-color);
+    font-size: 22px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.table_t table tr {
+    font-size: 20px;
+}
+
+.table_t table tr:nth-child(even) {
+    background-color: var(--table-alt-row-color);
+}
+
+.table_t table tr:hover {
+    background-color: var(--hover-bg-color);
+    transition: background-color 0.3s ease;
+}
+
+.table_t table tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+}
+
+.table_t tr:first-child th:last-child {
+    border-top-right-radius: 20px;
+}
+
+.table_t table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.table_t table tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+.content {
+    top: 0px;
+    padding: 10px;
+}
+
+.better-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 footer {
     display: block;
     background-color: var(--bg-color);
     color: var(--text-color);
     padding: 20px 0;
-    position: absolute;
 }
 
 .footer-container {
