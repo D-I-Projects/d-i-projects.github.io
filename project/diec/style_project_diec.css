@@ -151,8 +151,8 @@ body.light-mode .program_table tr:hover {
 }
 
 pre {
-    background-color: var(--header-color);
-    color: var(--bg-color);
+    background-color: var(--table-header-background-color);
+    color: var(--button-color);
     border-radius: 5px;
     padding: 10px;
     overflow-x: auto;

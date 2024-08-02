@@ -104,6 +104,11 @@ b {
     transition: color 0.3s ease;
 }
 
+.table-link {
+    color: var(--text-color);
+    text-decoration: solid;
+}
+
 .black:hover {
     color: var(--link-hover-color);
 }
