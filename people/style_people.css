@@ -95,47 +95,7 @@ b {
     color: var(--text-color);
 }
 
-body.light-mode {
-    --bg-color: #f0f0f0;
-    --text-color: #444;
-    --header-color: #333;
-    --primary-color: #4CAF50;
-    --secondary-color: whitesmoke;
-    --border-color: black;
-    --hover-bg-color: #ddd;
-    --link-color: rgb(4, 85, 10);
-    --link-hover-color: #333;
-    --table-alt-row-color: #f2f2f2;
-    --button-color: #1a1a1a; 
-    --light-pic : block;
-    --dark-pic : none;
-    --box-color-text : rgb(255, 255, 255);
-    --box-color : #1a1a1a;
-    --button-color-reverse : #f0f0f0; 
-    --table-background-color: #f0f0f0;
-    --table-header-background-color: #ddd;
-    --table-header-text-color: #333;
-    --table-row-even-background-color: #f2f2f2;
-    --table-row-hover-background-color: #ddd;
-}
-
-body.light-mode .program_table {
-    color: white;
-}
-
-body.light-mode .program_table th,
-body.light-mode .program_table td {
-    border-color: var(--border-color);
-    color: white;
-}
-
-body.light-mode .program_table tr:nth-child(even) {
-    background-color: var(--table-alt-row-color);
-}
-
-body.light-mode .program_table tr:hover {
-    background-color: var(--hover-bg-color);
-}
+ 
 
 pre {
     background-color: #282c34;

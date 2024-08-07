@@ -111,24 +111,7 @@
             </div>
         </footer>
     </div>
-    <button id="toggle-light-mode" class="light-mode-btn" aria-label="Light Mode">
-        <i class="fas fa-moon"></i>
-        <i class="fas fa-sun"></i>
-    </button>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const toggleLightMode = () => {
-                document.body.classList.toggle('light-mode');
-                const isLightMode = document.body.classList.contains('light-mode');
-                localStorage.setItem('lightMode', isLightMode);
-            };
-        
-            document.getElementById('toggle-light-mode').addEventListener('click', toggleLightMode);
-        
-            if (localStorage.getItem('lightMode') === 'true') {
-                document.body.classList.add('light-mode');
-            }
-        });    
-    </script>
+  
+  
 </body> 
 </html>
